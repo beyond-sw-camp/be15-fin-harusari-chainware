@@ -1,0 +1,9 @@
+[submodule "spring"]
+	path = spring
+	url = https://github.com/harusari-chainware/harusari-chainware-spring
+[submodule "vue"]
+	path = vue
+	url = https://github.com/harusari-chainware/harusari-chainware-vue
+[submodule "fastapi"]
+	path = fastapi
+	url = https://github.com/harusari-chainware/harusari-chainware-fastapi
