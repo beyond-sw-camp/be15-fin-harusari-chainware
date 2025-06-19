@@ -1,12 +1,12 @@
 <p align="left">
-  <img src="frontend/src/assets/images/HARURAMENSARI.png" alt="HARURAMENSARI" width="30" style="vertical-align: middle;"/>
+  <img src="assets/HARURAMENSARI.webp" alt="HARURAMENSARI" width="30" style="vertical-align: middle;"/>
   <span style="vertical-align: middle;">be15-4th-PigMa-HaruSari</span>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffb6c1,50:87cefa,100:ffe066&height=220&section=header&text=CHAINWARE&fontSize=75&fontColor=ffffff&animation=twinkling" alt="header" width="100%"/>
 
 <p align="center">
-<img src="frontend/src/assets/images/HARURAMENSARI.png" alt="HARURAMENSARI" width="100"/>
+<img src="assets/HARURAMENSARI.webp" alt="HARURAMENSARI" width="100"/>
 </p>
 
 
