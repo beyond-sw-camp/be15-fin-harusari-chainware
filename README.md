@@ -511,19 +511,31 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 <img src="assets/ui/member/join-master.gif" alt="회원등록-마스터" />
 </details>
 
-<details><summary>05_회원 등록 - 가맹점</summary>
+<details><summary>05_회원 등록 - 일반 관리자</summary>
+<img src="assets/ui/member/join-general-manager.gif" alt="회원등록-일반 관리자" />
+</details>
+
+<details><summary>06_회원 등록 - 책임 관리자</summary>
+<img src="assets/ui/member/join-senior-manager.gif" alt="회원등록-책임 관리자" />
+</details>
+
+<details><summary>07_회원 등록 - 창고 관리자</summary>
+<img src="assets/ui/member/join-warehouse.gif" alt="회원등록-창고 관리자" />
+</details>
+
+<details><summary>08_회원 등록 - 가맹점</summary>
 <img src="assets/ui/member/join-franchise.gif" alt="회원등록-가맹점" />
 </details>
 
-<details><summary>06_회원 정보 조회</summary>
+<details><summary>09_회원 정보 조회</summary>
 <img src="assets/ui/member/myprofileandedit.gif" alt="회원 정보 조회" />
 </details>
 
-<details><summary>07_비밀번호 변경</summary>
+<details><summary>10_비밀번호 변경</summary>
 <img src="assets/ui/member/change-password.gif" alt="비밀번호 변경" />
 </details>
 
-<details><summary>08_로그아웃</summary>
+<details><summary>11_로그아웃</summary>
 <img src="assets/ui/member/logout.gif" alt="로그아웃" />
 </details>
 
