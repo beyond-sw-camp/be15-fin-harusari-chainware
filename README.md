@@ -544,62 +544,80 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 <br>
 
 <details><summary><strong>제품</strong></summary>
-<details><summary>카테고리</summary>
+<details><summary>1_카테고리</summary>
 
-<details><summary>카테고리 등록</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>01_카테고리 등록</summary>
+<img src="assets/ui/category/topcategorycreate1.gif" alt="카테고리 등록" />
+<img src="assets/ui/category/topcategorycreate2.gif" alt="카테고리 등록" />
+<img src="assets/ui/category/categorycreate1.gif" alt="카테고리 등록" />
+<img src="assets/ui/category/categorycreate2.gif" alt="카테고리 등록" />
 </details>
 
-<details><summary>카테고리 목록 조회</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+<details><summary>02_카테고리 수정</summary>
+<img src="assets/ui/category/categoryupdate.gif" alt="카테고리 수정" />
 </details>
 
-<details><summary>카테고리 상세 목록 조회</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
-</details>
-</details>
-
-<br>
-
-<details><summary><strong>제품 마스터</strong></summary>
-
-<details><summary>제품 등록</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>03_카테고리 삭제</summary>
+<img src="assets/ui/category/categorydelete.gif" alt="카테고리 삭제" />
 </details>
 
-<details><summary>제품 상태 변경</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>04_카테고리 목록 조회</summary>
+<img src="assets/ui/category/categorylist.gif" alt="카테고리 목록" />
 </details>
 
-
-<details><summary>제품 목록 조회</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+<details><summary>05_카테고리 상세 목록 조회</summary>
+<img src="assets/ui/category/categorydetaillist.gif" alt="카테고리 상세 목록" />
 </details>
-
-<details><summary>제품 상세 목록 조회</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
-</details>
-
 </details>
 
 <br>
 
-<details><summary><strong>거래처별 제품 계약 </strong></summary>
+<details><summary><strong>2_제품 마스터</strong></summary>
 
-<details><summary>거래처별 제품 계약 정보 등록</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>01_제품 등록</summary>
+<img src="assets/ui/product/productcreate.gif" alt="제품 등록<" />
 </details>
 
-<details><summary>거래처별 제품 계약 상태 변경</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>02_제품 수정</summary>
+<img src="assets/ui/product/productupdate.gif" alt="제품 수정<" />
 </details>
 
-<details><summary>거래처별 제품 계약 정보 목록 조회</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+<details><summary>03_제품 상태 변경</summary>
+<img src="assets/ui/product/productstatuschange.gif" alt="제품 상태 변경<" />
 </details>
 
-<details><summary>거래처별 제품 계약 정보 상세 목록 조회</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+<details><summary>04_제품 삭제</summary>
+<img src="assets/ui/product/productdelete.gif" alt="제품 삭제<" />
+</details>
+
+<details><summary>05_제품 목록 조회</summary>
+<img src="assets/ui/product/productlist.gif" alt="제품 목록 조회<" />
+</details>
+
+<details><summary>06_제품 상세 목록 조회</summary>
+<img src="assets/ui/product/productdetaillist.gif" alt="제품 상세 목록 조회<" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>3_거래처별 제품 계약 </strong></summary>
+
+<details><summary>01_거래처별 제품 계약 정보 등록</summary>
+<img src="assets/ui/contract/contractcreate.gif" alt="거래처별 제품 계약 정보 등록<" />
+</details>
+
+<details><summary>02_거래처별 제품 계약 상태 변경</summary>
+<img src="assets/ui/contract/contractstatuschange.gif" alt="거래처별 제품 계약 상태 변경<" />
+</details>
+
+<details><summary>03_거래처별 제품 계약 정보 목록 조회</summary>
+<img src="assets/ui/contract/contractlist.gif" alt="거래처별 제품 계약 정보 목록 조회<" />
+</details>
+
+<details><summary>04_거래처별 제품 계약 정보 상세 목록 조회 + 수정</summary>
+<img src="assets/ui/contract/contractdetaillist&update.gif" alt="거래처별 제품 계약 정보 상세 목록 조회 + 수정<" />
 </details>
 
 </details>
@@ -675,32 +693,17 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <br>
 
-<details><summary><strong>가맹점</strong></summary>
-
-<details><summary>가맹점 등록</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
-</details>
-
-</details>
-
-<br>
-
 <details><summary><strong>거래처</strong></summary>
-
-<details><summary>거래처 등록</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>01_거래처 상태 변경</summary>
+<img src="assets/ui/vendor/vendorstatuschange.gif" alt="거래처 상태 변경<" />
 </details>
 
-<details><summary>거래처 상태 변경</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>02_거래처 목록 조회</summary>
+<img src="assets/ui/vendor/vendorlist.gif" alt="거래처 목록 조회<" />
 </details>
 
-<details><summary>거래처 목록 조회</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
-</details>
-
-<details><summary>거래처 상세 목록 조회</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+<details><summary>03_거래처 상세 목록 조회 + 수정</summary>
+<img src="assets/ui/vendor/vendordetaillist&update.gif" alt="거래처 상세 목록 조회 + 수정<" />
 </details>
 
 </details>
