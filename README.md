@@ -26,11 +26,16 @@
 
 1. [🐷 harusari 팀 소개](#1--팀-소개)
 2. [📘 프로젝트 기획서](#2--프로젝트-기획서)
-3. [📊 WBS (작업 분배 및 일정)](#3--wbs-작업-분배-및-일정)
-4. [📄 요구사항 정의](#4--요구사항-정의)
-5. [📌 ERD](#5--erd--테이블-정의서)
-6. [⚙️ 시스템 아키텍쳐](#6--시스템-아키텍쳐)
-7. [📒 화면설계서](#12--화면설계서)
+3. [협업🤝 전략](#3--프로젝트-기획서)
+4. [📊 WBS (작업 분배 및 일정)](#4--wbs-작업-분배-및-일정)
+5. [📄 요구사항 정의](#5--요구사항-정의)
+6. [📌 ERD](#6--erd--테이블-정의서)
+7. [⚙️ 시스템 아키텍쳐](#7--시스템-아키텍쳐)
+8. [📒 화면설계서](#8--화면설계서)
+9. [🔗 프로그램 사양서](#9--프로그램-사양서)
+10. [🧑‍💻 단위 테스트 결과서](#10--단위-테스트-결과서)
+11. [🐙 UI/UX 단위 테스트](#11--UI/UX-단위-테스트)
+
 
 <br>
 
@@ -130,26 +135,40 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 ---
 
-## 3. 📊 WBS
+## 3. 협업🤝 전략
+
+<img src="assets/images/readme/git.png" width="400"/>
+
+✔️ 각자 작업 브랜치를 생성하고, 관련 이슈를 등록
+<br>
+✔️ 작업을 완료한 후 커밋과 푸시를 진행
+<br>
+✔️ PR을 올리면 최소 2명이 코드 리뷰와 승인
+<br>
+✔️ 2명 이상 승인 시에만 main 브랜치로 머지 가능
+
+---
+
+## 4. 📊 WBS
 🔗 [WBS 링크](https://docs.google.com/spreadsheets/d/1OMJ67HhQXPGCSt0CFpwde2jLPGfOOGp3Mq39YqtatQk/edit?usp=sharing)
 
-<img src="assets/03_WBS.png" alt="wbs" />
+<img src="assets/04_WBS.png" alt="wbs" />
 
 
 ---
 
-## 4. 📄 요구사항 정의
+## 5. 📄 요구사항 정의
 
 🔗 [요구사항 명세서 링크](https://docs.google.com/spreadsheets/d/1X3JHOtUEBqJ54PKB5uypC5QkqCoK_W_jjFGO8FnzgTU/edit?usp=sharing)
 
-<img src="assets/04_요구사항명세서-1.png" alt="요구사항 명세서(1)" />
-<img src="assets/04_요구사항명세서-2.png" alt="요구사항 명세서(2)" />
+<img src="assets/05_요구사항명세서-1.png" alt="요구사항 명세서(1)" />
+<img src="assets/05_요구사항명세서-2.png" alt="요구사항 명세서(2)" />
 
 <br>
 
 ---
 
-## 5. 📌 ERD
+## 6. 📌 ERD
 
 🔗 [ERD 링크](https://www.erdcloud.com/d/M5bP6PSAHmyxR3kJb)
 <img src="assets/05_ERD.png" alt="erd" />
@@ -158,14 +177,14 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 ---
 
-## 6. ⚙️ 시스템 아키텍쳐
+## 7. ⚙️ 시스템 아키텍쳐
 <img src="assets/06_SystemArchitecture.png" alt="system architecture" />
 
 <br>
 
 ---
 
-## 7. 📒 화면설계서
+## 8. 📒 화면설계서
 
 🔗 [화면설계서 링크](https://www.figma.com/design/C02kJemWb1nZGRWeHFSHUX/SCM?node-id=274-808&t=BoIIDbsIVvp1ZoMt-1)
 
@@ -454,6 +473,354 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 </details>
 
+<br>
+
+## 9. 🔗 프로그램 사양서
+
+🔗 [Swagger 링크](http://localhost:8080/swagger-ui/index.html#/requisition-query-controller/getRequisitionDetail)
+<pdf src="assets/08_Chainware_Swagger.pdf" alt="swagger" />
+
+<br>
+
+---
+
+## 10. 🧑‍💻 단위 테스트 결과서
+<img src="assets/09_단위%20테스트%20결과서%201.png" alt="Unit test results" />
+<img src="assets/09_단위%20테스트%20결과서%202.png" alt="Unit test results" />
+
+<br>
+
+---
+
+
+## 11. 🐙 UI/UX 단위 테스트
+
+<details><summary><strong>회원</strong></summary>
+
+<details><summary>DL-01_로그인</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>DL-02_회원가입</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>제품-카테고리</strong></summary>
+
+<details><summary>카테고리 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>카테고리 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+<details><summary>카테고리 상세 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+</details>
+
+<details><summary><strong>제품-마스터</strong></summary>
+
+<details><summary>제품 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>제품 상태 변경</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+
+<details><summary>제품 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+<details><summary>제품 상세 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>제품-거래처별 제품 계약 정보 관리</strong></summary>
+
+<details><summary>거래처별 제품 계약 정보 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>거래처별 제품 계약 상태 변경</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>거래처별 제품 계약 정보 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+<details><summary>거래처별 제품 계약 정보 상세 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+</details>
 
 
 <br>
+
+
+<details><summary><strong>주문</strong></summary>
+
+<details><summary>주문 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>주문 승인</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>주문 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+<details><summary>주문 상세 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>발주</strong></summary>
+
+<details><summary>발주 요청서 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>발주 승인</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>발주 내역 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+<details><summary>발주 상세 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>품의서</strong></summary>
+
+<details><summary>품의서 작성</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>품의서 상신</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>품의서 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+<details><summary>품의서 상세 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>가맹점</strong></summary>
+
+<details><summary>가맹점 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>거래처</strong></summary>
+
+<details><summary>거래처 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>거래처 상태 변경</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>거래처 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+<details><summary>거래처 상세 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>창고-입출고</strong></summary>
+
+<details><summary>입고 정보 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>입고 정보 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>창고-재고</strong></summary>
+
+<details><summary>보유 재고 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>보유 재고 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>창고-마스터</strong></summary>
+
+<details><summary>창고 마스터 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>창고 목록 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>배송</strong></summary>
+
+<details><summary>배송 상태 변경</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>배송 내역 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>배송 내역 상세 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+
+</details>
+
+<br>
+
+<details><summary><strong>반품</strong></summary>
+
+<details><summary>반품 신청</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>반품 승인</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>반품 폐기</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+</details>
+
+<br>
+
+<details><summary><strong>폐기</strong></summary>
+
+<details><summary>폐기 등록</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>폐기 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+</details>
+
+
+<br>
+
+<details><summary><strong>통계-수요 예층</strong></summary>
+
+<details><summary>가맹점 판매량 예측</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>가맹점 주문량 예측</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>본사 발주량 예측</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+</details>
+
+
+<br>
+
+<details><summary><strong>통계-통계 표시</strong></summary>
+
+<details><summary>각 가맹점 별 메뉴별 판매량 및 판매 비중 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>각 가맹점 별 시간대별/ 요일별 매출 패턴 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>본사 창고 및 각 가맹점 별 재고 회전율 통계 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>예측 대비 실제 주문량/판매량 정확도 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>계절 별 주문량/판매량 변화 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>발주량 통계 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>가맹점 별 폐기율 통계 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+<details><summary>창고 폐기율 통계 조회</summary>
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
+</details>
+
+
+
+---
+
+
