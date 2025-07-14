@@ -495,12 +495,36 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <details><summary><strong>회원</strong></summary>
 
-<details><summary>DL-01_로그인</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>01_로그인</summary>
+<img src="assets/ui/member/login.gif" alt="로그인" />
 </details>
 
-<details><summary>DL-02_회원가입</summary>
-<img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
+<details><summary>02_회원 목록</summary>
+<img src="assets/ui/member/member-list.gif" alt="회원 목록" />
+</details>
+
+<details><summary>03_회원 상세</summary>
+<img src="assets/ui/member/memberdetailandedit.gif" alt="회원 상세" />
+</details>
+
+<details><summary>04_회원 등록 - 마스터</summary>
+<img src="assets/ui/member/join-master.gif" alt="회원등록-마스터" />
+</details>
+
+<details><summary>05_회원 등록 - 가맹점</summary>
+<img src="assets/ui/member/join-franchise.gif" alt="회원등록-가맹점" />
+</details>
+
+<details><summary>06_회원 정보 조회</summary>
+<img src="assets/ui/member/myprofileandedit.gif" alt="회원 정보 조회" />
+</details>
+
+<details><summary>07_비밀번호 변경</summary>
+<img src="assets/ui/member/change-password.gif" alt="비밀번호 변경" />
+</details>
+
+<details><summary>08_로그아웃</summary>
+<img src="assets/ui/member/logout.gif" alt="로그아웃" />
 </details>
 
 </details>
