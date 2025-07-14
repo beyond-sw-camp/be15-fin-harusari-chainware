@@ -477,7 +477,7 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 ## 9. 🔗 프로그램 사양서
 
 🔗 [Swagger 링크](http://localhost:8080/swagger-ui/index.html#/requisition-query-controller/getRequisitionDetail)
-[👉 Swagger PDF 보기](assets/08_Chainware_Swagger.pdf)
+[👉 Swagger PDF 보기](assets/09_Chainware_Swagger.pdf)
 <br>
 
 ---
