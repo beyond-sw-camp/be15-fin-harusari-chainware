@@ -136,8 +136,7 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 ---
 
 ## 3. 협업🤝 전략
-
-<img src="assets/images/readme/git.png" width="400"/>
+<img src="assets/03_git.png" width="400" />
 
 ✔️ 각자 작업 브랜치를 생성하고, 관련 이슈를 등록
 <br>
@@ -171,14 +170,14 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 ## 6. 📌 ERD
 
 🔗 [ERD 링크](https://www.erdcloud.com/d/M5bP6PSAHmyxR3kJb)
-<img src="assets/05_ERD.png" alt="erd" />
+<img src="assets/06_ERD.png" alt="erd" />
 
 <br>
 
 ---
 
 ## 7. ⚙️ 시스템 아키텍쳐
-<img src="assets/06_SystemArchitecture.png" alt="system architecture" />
+<img src="assets/07_SystemArchitecture.png" alt="system architecture" />
 
 <br>
 
@@ -478,15 +477,14 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 ## 9. 🔗 프로그램 사양서
 
 🔗 [Swagger 링크](http://localhost:8080/swagger-ui/index.html#/requisition-query-controller/getRequisitionDetail)
-<pdf src="assets/08_Chainware_Swagger.pdf" alt="swagger" />
-
+[👉 Swagger PDF 보기](assets/08_Chainware_Swagger.pdf)
 <br>
 
 ---
 
 ## 10. 🧑‍💻 단위 테스트 결과서
-<img src="assets/09_단위%20테스트%20결과서%201.png" alt="Unit test results" />
-<img src="assets/09_단위%20테스트%20결과서%202.png" alt="Unit test results" />
+<img src="assets/10_단위%20테스트%20결과서%201.png" alt="Unit test results" />
+<img src="assets/10_단위%20테스트%20결과서%201.png" alt="Unit test results" />
 
 <br>
 
@@ -509,7 +507,8 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <br>
 
-<details><summary><strong>제품-카테고리</strong></summary>
+<details><summary><strong>제품</strong></summary>
+<details><summary>카테고리</summary>
 
 <details><summary>카테고리 등록</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
@@ -522,10 +521,11 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 <details><summary>카테고리 상세 목록 조회</summary>
 <img src="assets/07_WIREFRAME/DL-02_%EB%B0%B0%EC%86%A1%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.png" alt="DL-02_배송 목록 조회" />
 </details>
-
 </details>
 
-<details><summary><strong>제품-마스터</strong></summary>
+<br>
+
+<details><summary><strong>제품 마스터</strong></summary>
 
 <details><summary>제품 등록</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
@@ -548,7 +548,7 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <br>
 
-<details><summary><strong>제품-거래처별 제품 계약 정보 관리</strong></summary>
+<details><summary><strong>거래처별 제품 계약 </strong></summary>
 
 <details><summary>거래처별 제품 계약 정보 등록</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
@@ -569,8 +569,9 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 </details>
 
 
-<br>
+</details>
 
+<br>
 
 <details><summary><strong>주문</strong></summary>
 
@@ -669,8 +670,9 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 </details>
 
 <br>
+<details><summary><strong>창고</strong></summary>
 
-<details><summary><strong>창고-입출고</strong></summary>
+<details><summary><strong>입출고</strong></summary>
 
 <details><summary>입고 정보 등록</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
@@ -684,7 +686,7 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <br>
 
-<details><summary><strong>창고-재고</strong></summary>
+<details><summary><strong>재고</strong></summary>
 
 <details><summary>보유 재고 등록</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
@@ -698,7 +700,7 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <br>
 
-<details><summary><strong>창고-마스터</strong></summary>
+<details><summary><strong>마스터</strong></summary>
 
 <details><summary>창고 마스터 등록</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
@@ -706,6 +708,8 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <details><summary>창고 목록 조회</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+</details>
+
 </details>
 
 </details>
@@ -763,8 +767,8 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 
 <br>
-
-<details><summary><strong>통계-수요 예층</strong></summary>
+<details><summary><strong>통계</strong></summary>
+<details><summary><strong>수요 예층</strong></summary>
 
 <details><summary>가맹점 판매량 예측</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
@@ -783,7 +787,7 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <br>
 
-<details><summary><strong>통계-통계 표시</strong></summary>
+<details><summary><strong>통계 표시</strong></summary>
 
 <details><summary>각 가맹점 별 메뉴별 판매량 및 판매 비중 조회</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
@@ -817,6 +821,7 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
 </details>
 
+</details>
 </details>
 
 
