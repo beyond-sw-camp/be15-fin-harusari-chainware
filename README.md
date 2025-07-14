@@ -681,16 +681,6 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <br>
 
-<details><summary><strong>가맹점</strong></summary>
-
-<details><summary>가맹점 등록</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
-</details>
-
-</details>
-
-<br>
-
 <details><summary><strong>거래처</strong></summary>
 <details><summary>01_거래처 상태 변경</summary>
 <img src="assets/ui/vendor/vendorstatuschange.gif" alt="거래처 상태 변경<" />
