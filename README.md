@@ -574,15 +574,15 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 <img src="assets/ui/product/productstatuschange.gif" alt="제품 상태 변경<" />
 </details>
 
-<details><summary>03_제품 삭제</summary>
+<details><summary>04_제품 삭제</summary>
 <img src="assets/ui/product/productdelete.gif" alt="제품 삭제<" />
 </details>
 
-<details><summary>04_제품 목록 조회</summary>
+<details><summary>05_제품 목록 조회</summary>
 <img src="assets/ui/product/productlist.gif" alt="제품 목록 조회<" />
 </details>
 
-<details><summary>05_제품 상세 목록 조회</summary>
+<details><summary>06_제품 상세 목록 조회</summary>
 <img src="assets/ui/product/productdetaillist.gif" alt="제품 상세 목록 조회<" />
 </details>
 
