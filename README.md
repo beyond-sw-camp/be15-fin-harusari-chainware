@@ -894,7 +894,12 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 ---
 
 ## 12. 📈 통합 테스트 결과서
-<img src="assets/12_Integration_Test_Result_Report.png" alt="통합 테스트 결과 보고서" />
+<details>
+<summary>통합 테스트 결과서</summary>
+
+![통합 테스트 결과 보고서](assets/12_Integration_Test_Result_Report.png)
+
+</details>
 
 ---
 
