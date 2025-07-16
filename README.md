@@ -36,6 +36,8 @@
 9. [🔗 프로그램 사양서](#9--프로그램-사양서)
 10. [🧑‍💻 단위 테스트 결과서](#10--단위-테스트-결과서)
 11. [🐙 UI/UX 단위 테스트](#11--UI/UX-단위-테스트)
+12. []
+13. 
 
 <br>
 
@@ -884,13 +886,24 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <details><summary>창고 폐기율 통계 조회</summary>
 <img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
-</details>
 
 </details>
 </details>
-
-
+</details>
 
 ---
 
+## 12. 📈 통합 테스트 결과서
+<img src="assets/12_Integration_Test_Result_Report.png" alt="통합 테스트 결과 보고서" />
 
+---
+
+## 13. 🗃️ CI/CD 계획서
+<img src="assets/ci-cd/backend-cicd.png" alt="백엔드 CI/CD" />
+<img src="assets/ci-cd/backend-cicd-success.png" alt="백엔드 CI/CD 성공" />
+
+- 백엔드 소스 코드를 GitHub에 push 하면 GitHub Actions가 빌드 및 테스트를 수행하고, Docker 이미지를 Amazon ECR에 push 한 뒤 새로운 Task Definition을 등록하고 Amazon ECS 서비스에 배포 및 업데이트합니다.
+
+<img src="assets/ci-cd/frontend-cicd.png" alt="프론트 CI/CD" />
+
+- 프론트 소스 코드를 GitHub에 push 하면 GitHub Actions가 빌드하고, 결과물을 Amazon S3에 업로드하며 CloudFront를 통해 정적 리소스를 배포합니다.
