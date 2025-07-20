@@ -822,12 +822,20 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 
 <details><summary><strong>폐기</strong></summary>
 
-<details><summary>폐기 등록</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>가맹점 일반 폐기 등록</summary>
+<img src="assets/ui/disposal/가맹점 일반 폐기 등록.gif" alt="가맹점 일반 폐기 등록" />
+</details>
+
+<details><summary>창고 일반 폐기 등록</summary>
+<img src="assets/ui/disposal/창고 일반 폐기 등록.gif" alt="창고 일반 폐기 등록" />
+</details>
+
+<details><summary>창고 반품 폐기 등록</summary>
+<img src="assets/ui/disposal/창고 반품 폐기.gif" alt="창고 반품 폐기 등록" />
 </details>
 
 <details><summary>폐기 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<img src="assets/ui/disposal/폐기 조회.gif" alt="폐기 조회" />
 </details>
 
 </details>
@@ -838,15 +846,15 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 <details><summary><strong>수요 예층</strong></summary>
 
 <details><summary>가맹점 판매량 예측</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="가맹점 판매량 예측" />
 </details>
 
 <details><summary>가맹점 주문량 예측</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="가맹점 주문량 예측" />
 </details>
 
 <details><summary>본사 발주량 예측</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="본사 발주량 예측" />
 </details>
 
 </details>
@@ -857,37 +865,29 @@ Chainware는 **카페 프랜차이즈**를 위한 **공급망 관리(SCM)** 통�
 <details><summary><strong>통계 표시</strong></summary>
 
 <details><summary>각 가맹점 별 메뉴별 판매량 및 판매 비중 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
-</details>
-
-<details><summary>각 가맹점 별 시간대별/ 요일별 매출 패턴 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<img src="assets/ui/statistics/메뉴별 판매량.gif" alt="각 가맹점 별 메뉴별 판매량 및 판매 비중 조회" />
 </details>
 
 <details><summary>본사 창고 및 각 가맹점 별 재고 회전율 통계 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<img src="assets/ui/statistics/재고 회전율 통계.gif" alt="본사 창고 및 각 가맹점 별 재고 회전율 통계 조회" />
 </details>
 
-<details><summary>예측 대비 실제 주문량/판매량 정확도 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>예측 대비 실제 판매량/주문량/발주량 정확도 조회</summary>
+<img src="assets/ui/statistics/예측 정확도.gif" alt="예측 대비 실제 판매량/주문량/발주량 정확도 조회" />
 </details>
 
-<details><summary>계절 별 주문량/판매량 변화 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>각 가맹점 별 시간대별/ 요일별 매출 패턴 및 총 판매량 조회</summary>
+<img src="assets/ui/statistics/매출 패턴 및 총 판매.gif" alt="매출 패턴 및 총 매출 조회" />
 </details>
 
 <details><summary>발주량 통계 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<img src="assets/ui/statistics/발주량 통계.gif" alt="발주량 통계 조회" />
 </details>
 
-<details><summary>가맹점 별 폐기율 통계 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
+<details><summary>본사 창고 및 가맹점 별 폐기율 통계 조회</summary>
+<img src="assets/ui/statistics/폐기율 통계.gif" alt="본사 창고 및 가맹점 별 폐기율 통계 조회" />
 </details>
 
-<details><summary>창고 폐기율 통계 조회</summary>
-<img src="assets/07_WIREFRAME/DL-01_배송%20등록.png" alt="DL-01_배송 등록" />
-
-</details>
 </details>
 </details>
 
